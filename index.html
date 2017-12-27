@@ -162,19 +162,19 @@ html {
       </tr>
       </tbody></table>
 <!-- ################################### -->
- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 
         <tr onmouseout="eve_stop()" onmouseover="eve_start()">
           <td width="25%">
             <div class="one">
-                <div class="two" id="eve" style="opacity: 0;"><img src="eve.JPG" width=150 height=140></div>
-                <img src="eve.JPG" width=150 height=140>
+                <div class="two" id="eve" style="opacity: 0;"><img src="Images/eve.JPG" width=150 height=140></div>
+                <img src="Images/eve.JPG" width=150 height=140>
             </div>
             <script type="text/javascript">
             function eve_start() {
               document.getElementById('eve').style.opacity = "1";
             }
-   function eve_stop() {
+            function eve_stop() {
               document.getElementById('eve').style.opacity = "0";
             }
             eve_stop()
@@ -194,14 +194,14 @@ html {
         <tr onmouseout="golden_stop()" onmouseover="golden_start()">
           <td width="25%">
             <div class="one">
-                <div class="two" id="golden" style="opacity: 0;"><img src="/Images/goldeneyeab1.jpg" width=150 height=150></div>
-                <img src="/Images/goldeneyeab1.jpg" width=150 height=150>
+                <div class="two" id="golden" style="opacity: 0;"><img src="Images/goldeneyeab1.jpg" width=150 height=150></div>
+                <img src="Images/goldeneyeab1.jpg" width=150 height=150>
             </div>
             <script type="text/javascript">
             function golden_start() {
               document.getElementById('golden').style.opacity = "1";
             }
-   function golden_stop() {
+            function golden_stop() {
               document.getElementById('golden').style.opacity = "0";
             }
             golden_stop()
@@ -210,6 +210,7 @@ html {
               </td>
               <td valign="top" width="75%">
               <p><b> NASA 2025 Supersonic Transport</b> | Goldeneye AB1
+              <br>
               <a href="https://www.nasa.gov/aeroresearch/resources/aeronautics-student-competitions/2017">(NASA Competition)</a>, <a href="http://www.me.berkeley.edu/about/news/me-undergrads-take-3rd-place-nasa-aeronautics-university-design-challenge-2016-2017">(UC Berkeley press release)</a>
               </p><p></p>
               <p> 
@@ -221,19 +222,44 @@ html {
 
         <tr onmouseout="ttuni_stop()" onmouseover="ttuni_start()">
           <td width="25%">
-            <heading2><i>Research</i></heading2> | Spherical Tensegrity Robots <br><br>
+            <heading2><i>Research</i> | Spherical Tensegrity Robots</heading2> <br><br>
             <div class="one">
-                <div class="two" id="ttuni" style="opacity: 0;"><img src="passive_actuated.jpeg" width=150 height=140></div>
-                <img src="passive_actuated.jpeg" width=150 height=140>
+                <div class="two" id="ttuni" style="opacity: 0;"><img src="Images/passive_actuated.jpeg" width=180 height=140></div>
+                <img src="Images/passive_actuated.jpeg" width=150 height=140>
             </div>
             <script type="text/javascript">
             function ttuni_start() {
               document.getElementById('ttuni').style.opacity = "1";
             }
-   function ttuni_stop() {
+            function ttuni_stop() {
               document.getElementById('ttuni').style.opacity = "0";
             }
             ttuni_stop()
+            </script>
+
+              </td>
+              <td valign="top" width="75%">
+                <heading2><i></i></heading2><br>
+              <p><b> TT-Unisphere </b><br>
+              </p><p></p>
+              <p> 
+              Tensegrity robot featuring actuator-enabled lattice, developed in collaboration with <a href="https://ti.arc.nasa.gov/profile/aagogino/">Adrian Agogino</a> at NASA Ames Research Center. Offeres a simplified solution from preceding tensegrity robots based off of cable-governed actuation schemes. Fully modular assembly, delivering radical improvements in deployment and transitioning between passive and actuated states. Wireless functionality permitting command of several robot slaves under a single control policy.</p>
+              </td>
+            </tr>
+<tr onmouseout="tt4mini_stop()" onmouseover="tt4mini_start()">
+          <td width="25%">
+            <div class="one">
+                <div class="two" id="tt4mini" style="opacity: 0;"><img src="Images/tt4mini_flatroll.gif" width=150 height=140></div>
+                <img src="Images/tt4mini_flatroll.gif" width=150 height=140>
+            </div>
+            <script type="text/javascript">
+            function tt4mini_start() {
+              document.getElementById('tt4mini').style.opacity = "1";
+            }
+   function tt4mini_stop() {
+              document.getElementById('tt4mini').style.opacity = "0";
+            }
+            tt4mini_stop()
             </script>
 
               </td>
@@ -243,15 +269,17 @@ html {
               <a href="https://www.youtube.com/watch?v=sqqOZ4Sg95Q">(Hardware validation video)</a>
               </p><p></p>
               <p> 
-              First planetary scouting vehicle capable of climbing inclines exceeding 24 degrees, featuring multi-cable actuation control scheme. Developed tensegrity structure and conducted hardware validation experiments.</p>
+               First planetary scouting vehicle capable of climbing inclines exceeding 24 degrees, featuring multi-cable actuation control scheme. Developed tensegrity structure and conducted hardware validation experiments. </p>
+
               </td>
             </tr>
+
 
 <tr onmouseout="tt4v1_stop()" onmouseover="tt4v1_start()">
           <td width="25%">
             <div class="one">
-                <div class="two" id="tt4v1" style="opacity: 0;"><img src="tt4assembly.gif" width=150 height=140></div>
-                <img src="tt4assembly.gif" width=150 height=140>
+                <div class="two" id="tt4v1" style="opacity: 0;"><img src="Images/tt4assembly.gif" width=150 height=140></div>
+                <img src="Images/tt4assembly.gif" width=150 height=140>
             </div>
             <script type="text/javascript">
             function tt4v1_start() {
@@ -266,21 +294,20 @@ html {
               </td>
               <td valign="top" width="75%">
                 <heading2><i></i></heading2><br>
-              <p><b> TT-Unisphere </b>
+              <p><b> TT-4mini V1 </b>
               </p><p></p>
               <p> 
-              Rapid prototyping platform for tensegrity robots that reduces manufacture and assembly time </p>.
+              Rapid prototyping platform for tensegrity robots that reduces manufacture and assembly time. </p>
 
               </td>
             </tr>
-<h2>Social Impact</h2>
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-
+          
+          <h2>Social Impact</h2>
         <tr onmouseout="pnb_stop()" onmouseover="pnb_start()">
           <td width="25%">
             <div class="one">
-                <div class="two" id="pnb" style="opacity: 0;"><img src="pnb.jpg" width=150 height=140></div>
-                <img src="pnb.jpg" width=150 height=140>
+                <div class="two" id="pnb" style="opacity: 0;"><img src="Images/pnb.jpg" width=150 height=140></div>
+                <img src="Images/pnb.jpg" width=150 height=140>
             </div>
             <script type="text/javascript">
             function pnb_start() {
@@ -305,8 +332,8 @@ html {
         <tr onmouseout="lls_stop()" onmouseover="lls_start()">
           <td width="25%">
             <div class="one">
-                <div class="two" id="lls" style="opacity: 0;"><img src="fox.jpg" width=150 height=140></div>
-                <img src="fox.jpg" width=150 height=140>
+                <div class="two" id="lls" style="opacity: 0;"><img src="Images/fox.jpg" width=150 height=140></div>
+                <img src="Images/fox.jpg" width=150 height=140>
             </div>
             <script type="text/javascript">
             function lls_start() {
@@ -331,8 +358,8 @@ html {
         <tr onmouseout="techo_stop()" onmouseover="techo_start()">
           <td width="25%">
             <div class="one">
-                <div class="two" id="techo" style="opacity: 0;"><img src="techo.jpg" width=150 height=140></div>
-                <img src="techo.jpg" width=150 height=140>
+                <div class="two" id="techo" style="opacity: 0;"><img src="Images/techo.jpg" width=150 height=140></div>
+                <img src="Images/techo.jpg" width=150 height=140>
             </div>
             <script type="text/javascript">
             function techo_start() {

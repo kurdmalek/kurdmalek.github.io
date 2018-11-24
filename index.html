@@ -106,13 +106,13 @@ html {
       <p>
       Hello! I'm Saunon. 
       <br>
-      I study Mechanical Engineering at UC Berkeley, where I am specializing in aerospace systems and experimental robotics. I am part of <a href="http://best.berkeley.edu/best-research/best-berkeley-emergent-space-tensegrities-robotics/">Berkeley Emergent Space Tensegrities Lab (BEST)</a>, led by <a href="http://best.berkeley.edu/best-director-alice-m-agogino/">Alice Agogino</a>. I am currently a Research and Development Intern at <a href="https://natilus.co">Natilus Inc.</a>, working on systems for large, autonomous freight drones. 
+      I study Mechanical Engineering at UC Berkeley, where I am specializing in aerospace systems and experimental robotics. I am part of <a href="http://best.berkeley.edu/best-research/best-berkeley-emergent-space-tensegrities-robotics/">Berkeley Emergent Space Tensegrities Lab (BEST)</a>, led by <a href="http://best.berkeley.edu/best-director-alice-m-agogino/">Alice Agogino</a>. I am currently an Aerodynamics Intern at <a href="https://natilus.co">Natilus Inc.</a>, working on systems for unmanned, blended-wing-body aircraft.
       </p>
       <p>
       I am passionate about innovating technologies that improve the ways in which humans locomote. As a Costa Rica-native, I find sustainable development key to engineering design--the seamless integration of robotics in aerospace has permitted this, yielding more efficient, accessible, and sustainable transport solutions. I strive to exploit the intersection of these two disciples through my projects.
       </p>
       <p>
-      After graduation I intend to pursue a PhD in aerospace engineering, with an emphasis in biomimetic design. Raised in Costa Rica to Iranian parents, I enjoy exploring nature, discussing politics, and cooking.  
+      After graduation I intend to pursue a PhD in aerospace engineering, with an emphasis in biomimetic design. Raised in Costa Rica to Iranian parents, I enjoy flying, exploring nature, discussing politics, and cooking.  
        </p>
        <p align="center">
       <a href="Saunon_Malekshahi_Resume.pdf">CV</a> &nbsp;|&nbsp;
@@ -127,8 +127,16 @@ html {
     </td></tr> 
     
     <tr> <td> 
-  <h2> Publications </h2>
+  <h2> Publications and Preprints </h2>
   <p>
+
+    <a href=" insert arxiv link here ">
+          <papertitle>Introducing a Technical Feasibility Framework for a Commercialized, Low-Latitude SpacePort</papertitle>
+    </a><br>
+    <b>Saunon Malekshahi</b>,  Luis Diego Monge, Marco Martinez. 
+    <br>
+    Preprint submitted for review to Acta Astronautica, November 2018.
+    <br>
     <a href="https://arxiv.org/pdf/1708.08150.pdf">
           <papertitle>Inclined Surface Locomotion Strategies for Spherical Tensegrity Robots</papertitle>
     </a><br>
@@ -136,7 +144,7 @@ html {
     <br>
     Accepted and delivered at the IEEE 2017 Conference on <i>International Robots and Systems (IROS)</i>, Vancouver CA.
     <br>
-    <a href="https://www.nasa.gov/sites/default/files/atoms/files/uc-berkeley-2017-abstract.pdf">
+    <a href="GoldeneyeAB1.pdf">
           <papertitle>Goldeneye AB1</papertitle>
     </a><br>
     Raghav Anand, Alexander C. English, Dante Gao, <b>Saunon Malekshahi</b>, Rohan Sinha, Noah Stevenson.
@@ -158,7 +166,7 @@ html {
     <table width="100%" align="center" border="0" cellspacing="0" cellpadding="5">
       <tbody><tr>
         <td>
-        <h2>Engineering</h2>
+        <h2>Aviation</h2>
         </td>
       </tr>
       </tbody></table>
@@ -210,21 +218,183 @@ html {
 
               </td>
               <td valign="top" width="75%">
-              <p><b> NASA 2025 Supersonic Transport</b> | Goldeneye AB1
+              <p><b> Goldeneye AB1 Supersonic Transport</b> | NASA Advanced Air Vehicles Design Competition, Supersonic Division
               <br>
               <a href="https://www.nasa.gov/aeroresearch/resources/aeronautics-student-competitions/2017">(NASA Competition)</a>, <a href="http://www.me.berkeley.edu/about/news/me-undergrads-take-3rd-place-nasa-aeronautics-university-design-challenge-2016-2017">(UC Berkeley press release)</a>
               </p><p></p>
               <p> 
-              We designed a commercial supersonic business aircraft to meet NASA performance and environmental goals by 2025. As a submission to the 2016-17 NASA University Aeronautics Design Challenge, Goldeneye AB1 featrues a high-lift, variable-surface geometry wing enabling efficient subsonic and supersonic cruise. Our team was invited to present our work at the NASA Langley University Aeronautics Symposium, where we claimed Honors.
+              Claimed Honors in the 2016-17 NASA Advanced Air Vehicles Symposium with a design submission for a commercial, supersonic aircraft. Goldeneye AB1 features a novel variable-geometry wing designed to deliver high lift in the subsonic and supersonic regimes. Invited to present submission during the winner's symposium at NASA's Langley Research Center from September 25th-26th. Read <a href="GoldeneyeAB1.pdf">(whitepaper)</a> for more.
               </p>
               </td>
             </tr>
-            
+        
+        <tr onmouseout="golden_stop()" onmouseover="golden_start()">
+          <td width="25%">
+            <div class="one">
+                <div class="two" id="golden" style="opacity: 0;"><img src="Images/NASAmultirole.jpg" width=200 height=150></div>
+                <img src="Images/NASAmultirole.jpg" width=200 height=150>
+            </div>
+            <script type="text/javascript">
+            function golden_start() {
+              document.getElementById('golden').style.opacity = "1";
+            }
+            function golden_stop() {
+              document.getElementById('golden').style.opacity = "0";
+            }
+            golden_stop()
+            </script>
+
+              </td>
+              <td valign="top" width="75%">
+              <p><b> Multirole, Atmospheric UAV</b> | NASA Airborne Science Program, Natilus
+              <br>
+              <a href="NASA_Concept_UAV.pdf">(Whitepaper)</a>, <a href="NASAConcept0.vsp3" download="filename">openVSP Model</a>
+              </p><p></p>
+              <p> 
+              A proposal for a medium-high altitude, multirole UAV, designed to fulfill various flight envelopes requirements of the NASA Airborne Science Program (ASP). The aircraft features a high aspect ratio, fixed wing design resemblant of the U2 reconnaissance aircraft. The fuselage’s near-square cross-section enables 70% of manufacturing to be done using a single tool. Two Pratt and Whitney Canada (PWC) turbofan engines enable a service ceiling up to 80,000ft. The UAV is primarily operated through an Intelsat communication link, with a service altitude enabling a wide range of atmospheric-study missions to be performed.
+              </p>
+              </td>
+            </tr>
+
+    <table width="100%" align="center" border="0" cellspacing="0" cellpadding="5">
+      <tbody><tr>
+        <td>
+        <h2>Space</h2>
+        </td>
+      </tr>
+      </tbody></table>
+
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <tr onmouseout="golden_stop()" onmouseover="golden_start()">
+          <td width="25%">
+            <div class="one">
+                <div class="two" id="golden" style="opacity: 0;"><img src="Images/TICO.jpg" width=200 height=150></div>
+                <img src="Images/TICO.jpg" width=200 height=150>
+            </div>
+            <script type="text/javascript">
+            function golden_start() {
+              document.getElementById('golden').style.opacity = "1";
+            }
+            function golden_stop() {
+              document.getElementById('golden').style.opacity = "0";
+            }
+            golden_stop()
+            </script>
+
+              </td>
+              <td valign="top" width="75%">
+              <p><b> Commercial, Low-Latitude Spaceport</b> | Asociacion Centroamericana de Aeronautica y del Espacio, Carao Ventures, DIT Space
+              <br>
+              <a href="insert arxiv link here">(Whitepaper)</a>, <a href="presentacio spaceport.pdf">(Slidedeck)</a>
+              </p><p></p>
+              <p> 
+              A multidisciplinary research effort to establish a low-latitude center for commercial launch services, based out of Costa Rica. Directed a study that devised a three-pronged approach to determine a country’s geospatial ability of launching to orbit, governed by analyses on orbital mechanics, aeronautical compliance, and human-geography impact. The range of reachable orbits is determined from a desired point in latitude; a trajectory modeling tool for conventional rocket systems was developed and used to generate trajectory profiles, given a launch latitude and orbital inclination requirement. Subsequently, key challenges compromising airspace navigation, environmental compliance, and human socio-economic activity are assessed. The technical feasibility framework established in this paper is comprehensive enough to concern all countries exploring the ability of offering spacecraft launch services, with Costa Rica forming the present case-study. The <a href="insert arxiv link here">(paper)</a> is highlighted by the methods introduced to determine a country’s aptness for launching spacecraft into orbit.
+              </p>
+              </td>
+            </tr>
+
+        <tr onmouseout="golden_stop()" onmouseover="golden_start()">
+          <td width="25%">
+            <div class="one">
+                <div class="two" id="golden" style="opacity: 0;"><img src="Images/IRAZU_exploded.jpeg" width=200 height=150></div>
+                <img src="Images/IRAZU_exploded.jpeg" width=200 height=150>
+            </div>
+            <script type="text/javascript">
+            function golden_start() {
+              document.getElementById('golden').style.opacity = "1";
+            }
+            function golden_stop() {
+              document.getElementById('golden').style.opacity = "0";
+            }
+            golden_stop()
+            </script>
+
+              </td>
+              <td valign="top" width="75%">
+              <p><b> Proyecto Irazu CubeSat</b> | Tecnologico de Costa Rica, Asociación Centroamericana de Aeronautica y del Espacio
+              <br>
+              <a href="https://directory.eoportal.org/web/eoportal/satellite-missions/i/irazu">(Irazú Overview)</a>, <a href="https://www.researchgate.net/publication/308804145_Irazu_CubeSat_Mission_Architecture_and_Development">(CubeSat Mission Architecture & Development)</a>
+              </p><p></p>
+              <p> 
+              The Irazu CubeSat was deployed into orbit on May 11, 2018, on a six-month mission to to measure biomass growth throughout rainforests in Costa Rica, currently being affected by fluctuating levels of atmospheric carbon fixation. Conducted finite element analyses and hardware validation experiments on the mechanical subsystems of the 1U CubeSat, as a visiting researcher at the Costa Rica Institute of Technology.<br> 
+              <u>Mission</u> The satellite primarily fulfills the role of a store and forward system. Using the Store and Forward Protocol, telemetry data is uplinked from a remote ground station, collecting scientific data from dendrometers measuring tree diameter growth and other sensors. The received data is stored within the satellite’s internal memory, after which a downlink signal is issued from the mission control station to finally collect the scientific data.<br>
+              <u>Spacecraft Architecture</u> The 1U CubeSat was developed using the GomSpace architecture. The spacecraft is comprised of six subsystems; a structural frame, communications systems, thermal-regulating components, an electrical power system (EPS), an onboard computer (OBC), and a dummy payload. Each subsystem is controlled by a microprocessor connecting to the satellite’s central I2C bus. 
+              </p>
+              </td>
+            </tr>
+
+    <table width="100%" align="center" border="0" cellspacing="0" cellpadding="5">
+      <tbody><tr>
+        <td>
+        <h2>Robotics</h2>
+        </td>
+      </tr>
+      </tbody></table>
+<!-- ################################### -->
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 
         <tr onmouseout="ttuni_stop()" onmouseover="ttuni_start()">
           <td width="30%">
-            <heading2><i>Research</i> | Spherical Tensegrity Robots</heading2>
-            <br><br>
+            <div class="one">
+                <div class="two" id="ttuni" style="opacity: 0;"><img src="Images/manta.jpeg" width=200 height=140></div>
+                <img src="Images/manta.jpeg" width=300 height=260>
+            </div>
+            <script type="text/javascript">
+            function ttuni_start() {
+              document.getElementById('ttuni').style.opacity = "1";
+            }
+            function ttuni_stop() {
+              document.getElementById('ttuni').style.opacity = "0";
+            }
+            ttuni_stop()
+            </script>
+
+              </td>
+              <td valign="top" width="75%">
+                <heading2><i></i></heading2><br>
+              <p><b> Manta Ray-Inspired UUV for Mapping Subaquatic Environments </b> | Capstone Mechanical Engineering Project <br>
+              <a href="https://sites.google.com/berkeley.edu/phorcysrax/">Project Website</a>  
+              </p><p></p>
+              <p> 
+              Developed a submersible, unmanned vehicle inspired by manta ray anatomy, capable of generating real time renders of underwater terrain. The vehicle planform is a tapered, fixed-wing configuration mimicking that of a manta ray, providing significant volume for sensor and payload storage, and wide sensor-sweep areas.</p>
+              <u>Biomimetic Approach</u> The wing is tapered using varying chord lengths of the NACA 0020 airfoil, determined based off of CAT scans from manta ray pectoral fins. Research initiatives at Princeton led by Richard P. Clark and Alexander J. Smits, exploring fluid dynamics of flapping-wing propulsion, concluded that the static ray wing reduced wake vortices, yielding up to two times more propulsive efficiency in water.<br>
+              <u>Vehicle Design</u> The vehicle is accordingly sized to meet a 17kg payload requirement for neutral buoyancy, and is fully constructed out of composite fiberglass. The vehicle is propelled by two water-cooled brushless motors, with directional control achieved via two servos attached to the pectoral fins. Four primary degrees of freedom are possible; forward acceleration and yaw are achieved by uniform and differential operation of the brushless motors, along with pitch and roll via symmetric and asymmetric actuation of the servos.<br>
+              <u>3D Surface Generation</u> Four, ultrasonic range finding sensors integrated in the underbelly of the vehicle emit sonar pulses detecting depth of the terrain beneath the craft. Pulse data is collected from the returning sonar on a set time loop, yielding up to 100,000 depth measurements at every second. A cubic interpolation is applied to the obtained data points measurements to construct a three-dimensional surface spanned by the sonar pulses. 
+              </td>
+            </tr>
+
+         <tr onmouseout="ttuni_stop()" onmouseover="ttuni_start()">
+          <td width="30%">
+            <div class="one">
+                <div class="two" id="ttuni" style="opacity: 0;"><img src="Images/lanekeeper.gif" width=200 height=140></div>
+                <img src="Images/lanekeeper.gif" width=200 height=140>
+            </div>
+            <script type="text/javascript">
+            function ttuni_start() {
+              document.getElementById('ttuni').style.opacity = "1";
+            }
+            function ttuni_stop() {
+              document.getElementById('ttuni').style.opacity = "0";
+            }
+            ttuni_stop()
+            </script>
+
+              </td>
+              <td valign="top" width="75%">
+                <heading2><i></i></heading2><br>
+              <p><b> Goldeneye Berkeley Autonomous Race Car </b> | Model Predictive Control Lab, Aptiv PLC <br>
+              <a href="https://goldeneye.berkeley.edu/">Project Website</a>, <a href="APTIV_VISIT.pdf">Aptiv Slidedeck</a>   
+              </p><p></p>
+              <p> 
+              An autonomous driving research initiative, developed off of the Berkeley Autonomous Race Car platform, performed under the purview of Professor Francesco Borrelli and the Model Predictive Control (MPC) Lab. Two 1/10 scale Ford Fiesta ST RC cars were each equipped with an Ubuntu 64bit Linux computer running ROS, a microcontroller acting as the interface between the Ubuntu OS and RC ECU (Engine Control Unit), an Inertial Measurement Unit (IMU), indoor GPS beacon, Lidar sensor, and High Resolution Machine Vision camera.</p> 
+              <u>Lane Keeping</u> a state feedback controller is used to modulate distance from a lane, while maintaining the forward velocity of the vehicle constant. Image feed from the camera is pre-processed and sent to the off-board computer, where an algorithm classifies and detects the lane. Data is relayed back to the vehicle so the controller can minimize distance from the center of the lane.<br>
+              <u>Sensor Fusion</u> An object detection scheme was implemented to accurately detect objects whose position and orientation could be fully determined from a single data set, (i.e. camera or LiDar independently). Objects are distinguished with a bounding box in an image frame, by associating pixels in raw image data with corresponding points in the LiDar point cloud scan. This project is important in the framework of decentralized control, where no knowledge about any of the other agents is assumed or given.<br>
+              <u>Point-to-Point Navigation, Motion Planning</u> a motion planner utilizes data on position of objects in the field space of the vehicle, and executes a two-state controller to generate an optimal, point-to-point trajectory. A motion-planning algorithm plans a trajectory for the vehicle to follow, and dynamically sends target positions to a model predictive, point-to-point controller to guide the vehicle along this path. The MPC controller decides what steering input to give the vehicle based on a linearized model in the local coordinate frame of the vehicle. Trajectories are generated with the maximum turning angle of the wheels as a limiting constraint, after which the trajectory minimizing the distance to the target is chosen. 
+              </td>
+            </tr>   
+
+        <tr onmouseout="ttuni_stop()" onmouseover="ttuni_start()">
+          <td width="30%">
             <div class="one">
                 <div class="two" id="ttuni" style="opacity: 0;"><img src="Images/passive_actuated.jpeg" width=200 height=140></div>
                 <img src="Images/passive_actuated.jpeg" width=200 height=140>
@@ -242,13 +412,15 @@ html {
               </td>
               <td valign="top" width="75%">
                 <heading2><i></i></heading2><br>
-              <p><b> <a href="Lattice_Enabled_Actuation_for_Tensegrity_Robots_Featuring_Cluster_Scouting_Functionality.pdf">TT-Unisphere</a> </b><br>
+              <p><b> TT-Unisphere </b><br>
+              <a href="Lattice_Enabled_Actuation_for_Tensegrity_Robots_Featuring_Cluster_Scouting_Functionality.pdf">Capstone Research Paper</a>  
               </p><p></p>
               <p> 
               Tensegrity robot featuring actuator-enabled lattice, developed in collaboration with <a href="https://ti.arc.nasa.gov/profile/aagogino/">Adrian Agogino</a> at NASA Ames Research Center. Offeres a simplified solution from preceding tensegrity robots based off of cable-governed actuation schemes. Fully modular assembly, delivering radical improvements in deployment and transitioning between passive and actuated states. Wireless functionality permitting command of several robot slaves under a single control policy.</p>
               </td>
             </tr>
-<tr onmouseout="tt4mini_stop()" onmouseover="tt4mini_start()">
+        
+        <tr onmouseout="tt4mini_stop()" onmouseover="tt4mini_start()">
           <td width="25%">
             <div class="one">
                 <div class="two" id="tt4mini" style="opacity: 0;"><img src="Images/tt4mini_flatroll.gif" width=200 height=140></div>
@@ -268,7 +440,7 @@ html {
               <td valign="top" width="75%">
                 <heading2><i></i></heading2><br>
               <p><b> TT-4mini V2 </b><br>
-              <a href="https://www.youtube.com/watch?v=sqqOZ4Sg95Q">(Hardware validation video)</a>
+              <a href="https://www.youtube.com/watch?v=sqqOZ4Sg95Q">(TT-4mini V2 Spherical Tensegrity Robot Climbing)</a>
               </p><p></p>
               <p> 
                First planetary scouting vehicle capable of climbing inclines exceeding 24 degrees, featuring multi-cable actuation control scheme. Developed tensegrity structure and conducted hardware validation experiments. </p>
@@ -300,10 +472,11 @@ html {
               </p><p></p>
               <p> 
               Rapid prototyping platform for tensegrity robots that reduces manufacture and assembly time. </p>
-
               </td>
             </tr></table>
             <br><br>
+    <!-- ################################### -->
+     
     <table width="100%" align="center" border="0" cellspacing="0" cellpadding="5">
       <tbody><tr>
         <td>

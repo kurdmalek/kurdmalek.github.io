@@ -106,21 +106,21 @@ html {
       <p>
       Hello! I'm Saunon. 
       <br>
-      I study Mechanical Engineering at UC Berkeley, where I am specializing in aerospace systems and experimental robotics. I am part of <a href="http://best.berkeley.edu/best-research/best-berkeley-emergent-space-tensegrities-robotics/">Berkeley Emergent Space Tensegrities Lab (BEST)</a>, led by <a href="http://best.berkeley.edu/best-director-alice-m-agogino/">Alice Agogino</a>. I am currently an Aerodynamics Intern at <a href="https://natilus.co">Natilus Inc.</a>, working on systems for unmanned, blended-wing-body aircraft.
+      I am a UC Berkeley graduate in Mechanical Engineering, where I specialized in aerospace systems and experimental robotics. I did research at <a href="http://best.berkeley.edu/best-research/best-berkeley-emergent-space-tensegrities-robotics/">Berkeley Emergent Space Tensegrities Lab (BEST)</a>, led by <a href="http://best.berkeley.edu/best-director-alice-m-agogino/">Alice Agogino</a>. I was an Aerodynamics Intern at <a href="https://natilus.co">Natilus Inc.</a>, working on systems for unmanned, blended-wing-body aircraft.
       </p>
       <p>
-      I am passionate about innovating technologies that improve the ways in which humans locomote. As a Costa Rica-native, I find sustainable development key to engineering design--the seamless integration of robotics in aerospace has permitted this, yielding more efficient, accessible, and sustainable transport solutions. I strive to exploit the intersection of these two disciplines through my projects.
+      I am passionate about innovating technologies that improve the ways in which humans locomote. My current research interests lie at the juncture of mathematical optimization, biomimetic-approaches in design, and autonomous systems. I strive to exploit the intersection of these fields through my projects, with the aim of producing more efficient, accessible and sustainable transportation solutions.
       </p>
       <p>
-      After graduation I intend to pursue a PhD in aerospace engineering, with an emphasis in biomimetic design. Raised in Costa Rica to Iranian parents, I enjoy flying, exploring nature, discussing politics, and cooking.  
+      I intend to pursue a PhD in aerospace engineering with an emphasis in biomimetic design. Raised in Costa Rica to Iranian parents, I enjoy flying, exploring nature, discussing politics, and cooking.  
        </p>
        <p align="center">
-      <a href="Saunon_Malekshahi_Resume.pdf">CV</a> &nbsp;|&nbsp;
+      <a href="Website_Resume.pdf">CV</a> &nbsp;|&nbsp;
       <a href="https://www.linkedin.com/in/smalekshahi">Linkedin</a> &nbsp;|&nbsp;
       <a href="http://github.com/kurdmalek">GitHub</a> 
        </p>
-        <td width="33%">
-    <img width=320 height=400 src="Images/profile.jpg">
+        <td width="33%" class="img-circle">
+    	<img width=320 height=400 src="Images/profile.jpg">
         </td>
     </tr> </tbody>
   </table>
@@ -135,7 +135,7 @@ html {
     </a><br>
     <b>Saunon Malekshahi</b>,  Luis Diego Monge, Marco Martinez. 
     <br>
-    Preprint submitted for review to Acta Astronautica, November 2018.
+    Accepted to the IAC 2019 <i>Space Business Innovaton Symposium</i> to be delivered October 2019, Washington DC.
     <br>
     <a href="https://arxiv.org/pdf/1708.08150.pdf">
           <papertitle>Inclined Surface Locomotion Strategies for Spherical Tensegrity Robots</papertitle>
@@ -264,6 +264,36 @@ html {
       </tbody></table>
 
       <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+      	<tr onmouseout="golden_stop()" onmouseover="golden_start()">
+          <td width="25%">
+            <div class="one">
+                <div class="two" id="golden" style="opacity: 0;"><img src="Images/rotor_top.jpg" width=200 height=150></div>
+                <img src="Images/rotor_top.jpg" width=200 height=150>
+            </div>
+            <script type="text/javascript">
+            function golden_start() {
+              document.getElementById('golden').style.opacity = "1";
+            }
+            function golden_stop() {
+              document.getElementById('golden').style.opacity = "0";
+            }
+            golden_stop()
+            </script>
+
+              </td>
+              <td valign="top" width="75%">
+              <p><b> Mars Rotorcraft Blade</b> | Engineering Aerodynamics (ME163) Final Project
+              <br>
+              <a href="MarsRotor_Paper.pdf">(Paper)</a>, <a href="RotorbladeDesign_MATLABFiles.zip" download="filename">(MATLAB Design Files)</a>
+              </p><p></p>
+              <p> 
+              Design proposal for a rotorcraft blade capable of operating in the cold, near-inviscid Martian atmosphere. The three-bladed rotorcraft propeller is designed around uniform, span-wise thrust loading so as to minimize lifting moments across the rotor-blades. The Selig S1223 airfoil was selected, which is designed for operation in low Reynolds number mediums.  Based off of initial design constraints for thrust, rotor disk area and sectional angle of attack, blade geometry parameters for chord, twist, and cross-sectional length were established. Lastly, the cross-sectional contributions of thrust, normal, and viscous drag forces were determined, along with those of the sectional twisting and bending moments.<br>
+              NASA has been exploring development of a wide range of terrestrial spacecraft as part of its Mars Exploration Program. In particular, the concept for a rotorcraft has been made possible by the surge of commercial spaceflight and NASA’s research efforts in understanding the fluid properties of the Martian atmosphere. The NASA Mars Helicopter, which will be accompanying the 2020 Rover on its mission to the red planet, is the latest development to come from the initiative. As such, the unprecedented study of rotorcraft dynamics on other planets is now within relevant scope of conventional aerodynamics and fluid mechanics. 
+              </p>
+              </td>
+            </tr>
+
         <tr onmouseout="golden_stop()" onmouseover="golden_start()">
           <td width="25%">
             <div class="one">
@@ -332,7 +362,7 @@ html {
 <!-- ################################### -->
       <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 
-        <tr onmouseout="ttuni_stop()" onmouseover="ttuni_start()">
+      	<tr onmouseout="ttuni_stop()" onmouseover="ttuni_start()">
           <td width="30%">
             <div class="one">
                 <div class="two" id="ttuni" style="opacity: 0;"><img src="Images/manta.jpeg" width=200 height=300></div>
@@ -352,13 +382,48 @@ html {
               <td valign="top" width="75%">
                 <heading2><i></i></heading2><br>
               <p><b> Manta Ray-Inspired UUV for Mapping Subaquatic Environments </b> | Capstone Mechanical Engineering Project <br>
-              <a href="https://sites.google.com/berkeley.edu/phorcysrax/">Project Website</a>  
+              <a href="https://sites.google.com/berkeley.edu/phorcysrax/">(Project Website)</a>  
               </p><p></p>
               <p> 
               Developed a submersible, unmanned vehicle inspired by manta ray anatomy, capable of generating real time renders of underwater terrain. The vehicle planform is a tapered, fixed-wing configuration mimicking that of a manta ray, providing significant volume for sensor and payload storage, and wide sensor-sweep areas.</p>
               <u>Biomimetic Approach</u> The wing is tapered using varying chord lengths of the NACA 0020 airfoil, determined based off of CAT scans from manta ray pectoral fins. Research initiatives at Princeton led by Richard P. Clark and Alexander J. Smits, exploring fluid dynamics of flapping-wing propulsion, concluded that the static ray wing reduced wake vortices, yielding up to two times more propulsive efficiency in water.<br>
               <u>Vehicle Design</u> The vehicle is accordingly sized to meet a 17kg payload requirement for neutral buoyancy, and is fully constructed out of composite fiberglass. The vehicle is propelled by two water-cooled brushless motors, with directional control achieved via two servos attached to the pectoral fins. Four primary degrees of freedom are possible; forward acceleration and yaw are achieved by uniform and differential operation of the brushless motors, along with pitch and roll via symmetric and asymmetric actuation of the servos.<br>
               <u>3D Surface Generation</u> Four, ultrasonic range finding sensors integrated in the underbelly of the vehicle emit sonar pulses detecting depth of the terrain beneath the craft. Pulse data is collected from the returning sonar on a set time loop, yielding up to 100,000 depth measurements at every second. A cubic interpolation is applied to the obtained data points measurements to construct a three-dimensional surface spanned by the sonar pulses. 
+              </td>
+            </tr>
+
+        <tr onmouseout="ttuni_stop()" onmouseover="ttuni_start()">
+          <td width="30%">
+            <div class="one">
+                <div class="two" id="ttuni" style="opacity: 0;"><img src="Images/manta.jpeg" width=200 height=300></div>
+                <img src="Images/cah.gif" width=200 height=140>
+            </div>
+            <script type="text/javascript">
+            function ttuni_start() {
+              document.getElementById('ttuni').style.opacity = "1";
+            }
+            function ttuni_stop() {
+              document.getElementById('ttuni').style.opacity = "0";
+            }
+            ttuni_stop()
+            </script>
+
+              </td>
+              <td valign="top" width="75%">
+                <heading2><i></i></heading2><br>
+              <p><b> Baxter Against Humanity </b> | Introduction to Robotics (EE106A) Final Project <br>
+              <a href="https://sites.google.com/berkeley.edu/baxteragainsthumanity/introduction">(Project Website)</a>  
+              </p><p></p>
+              <p> 
+              Programmed a Baxter industrial robot to play Cards Against Humanity against several opponents. Objective of the project involved making the game experience as human-like as possible, which parametrized the following game design criteria:</p> 
+              <ul>
+              <li>To <b>autonomously keep track of the black/ white cards</b> to play the appropriate card on its turn</li>
+              <li>To <b>pick up and read a card</b> without a human seeing what card is being picked (like a human would)</li>
+              <li>To come up with <b>a model of humor</b> and predict which card to put down based on humor</li>
+              <li>To look around the table and <b>tell whose turn it is</b> based on previously played cards and <b>play a complete game</b></li>
+          </ul>
+          		<p>
+				Involves a number of complicated and nontrivial subproblems involving perception, interaction, and control. These include enabling the robot to behave like a human, recognizing the number of players around the game table and identifying their respective actions during a specific turn. Additionally, developing a model of humor for Baxter served as a challenging learning problem. </p>
               </td>
             </tr>
 
